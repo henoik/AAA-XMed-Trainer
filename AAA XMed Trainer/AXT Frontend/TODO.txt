@@ -1,0 +1,31 @@
+﻿TODO List (Priority Order)
+ - Take things that you want to work on from the Global list and put it under your name.
+
+==== Global Action Items =======
+- Research exact phrases and timings for XMedSys (bleed out rates, action times, et cetera) and document them.
+- Add options to Options 
+	(inventory setup, game time acceleration multiplier, hints enabled (check box), starting health options).
+- Add frontend support for Options in OptionsForm.
+- Add 'Report Bug' button to bottom of AboutForm (probably use e-mail for this).
+- Add right-click XMedSys menu (same layout as ingame, but add button for "Request CPR Support")
+	to MainForm for only when the game is running.
+- Add game interface to MainForm.
+- Add gameloop to GameEngine.
+- Add pause feature to GameEngine (Space Bar to pause?).
+- Add random situations for Easy, Medium, and Hard Random.
+- Add Tutorial.
+- Add save/load game configurations via XML using the CustomGameSetupForm.
+
+==== @JDBoronkas' Action Items =======
+- Add all items to item system.
+- Add inventory data structure.
+
+==== Henrik's Action Items =======
+- Add Henrik to About Page in AboutForm.
+
+==== Wish List =======
+- Add distance between patients to simulate running between different injured people.
+- Add 'Live Fire Mode' that starts slow and slowly ramps up the difficulity in simulated combat.
+- Add Request Resupply to the right-click XMedSys menu.
+- Add Self-Treatment.
+- Add multiplayer (lulz, never going to happen).
