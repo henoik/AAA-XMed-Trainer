@@ -39,7 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Dummy.cs" />
+    <Compile Include="Entities\AEntity.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Items\Bandage.cs" />
+    <Compile Include="Items\IItem.cs" />
     <Compile Include="Options.cs" />
+    <Compile Include="Stat Enums\BleedAmount.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
