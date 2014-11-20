@@ -18,6 +18,6 @@ namespace AXT_Engine.Items
         /// Uses this item on the given Dummy target.
         /// </summary>
         /// <param name="target">The dummy target to use this item on.</param>
-        void UseItem(Dummy target);
+        void UseItem(Entities.AEntity target);
     }
 }
