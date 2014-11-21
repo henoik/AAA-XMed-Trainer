@@ -17,8 +17,8 @@
 - Add save/load game configurations via XML using the CustomGameSetupForm.
 
 ==== @JDBoronkas' Action Items =======
-- Add all items to item system.
 - Add inventory data structure.
+- Add all items to item system.  ### Need XMedSys Timings to continue. ###
 
 ==== Henrik's Action Items =======
 - Add Henrik to About Page in AboutForm.
