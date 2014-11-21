@@ -43,7 +43,7 @@ namespace AXT_Engine
         /// </summary>
         /// <param name="item">The name of the item to add.</param>
         /// <param name="amount">How many of the item to add.</param>
-        public void Add(IItem item, ushort amount)
+        public void Add(IItem item, ushort amount = 1)
         {
 
         }
@@ -53,7 +53,7 @@ namespace AXT_Engine
         /// </summary>
         /// <param name="item">The name of the item to remove.</param>
         /// <param name="amount">How many of the item to remove.</param>
-        public void Remove(IItem item, ushort amount)
+        public void Remove(IItem item, ushort amount = 1)
         {
 
         }
@@ -61,10 +61,10 @@ namespace AXT_Engine
         /// <summary>
         /// Transfers the specified amount of 'item' to the given inventory.
         /// </summary>
+        /// <param name="inventory">The inventory to transfer to.</param>
         /// <param name="item">The name of the item to transfer.</param>
         /// <param name="amount">How many of the item to transfer.</param>
-        /// <param name="inventory">The inventory to transfer to.</param>
-        public void Transfer(IItem item, ushort amount, Inventory inventory)
+        public void Transfer(Inventory inventory, IItem item, ushort amount = 1)
         {
 
         }
