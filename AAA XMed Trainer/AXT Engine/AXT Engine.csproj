@@ -44,6 +44,14 @@
     <Compile Include="Entities\Player.cs" />
     <Compile Include="GameEngine.cs" />
     <Compile Include="Inventory.cs" />
+    <Compile Include="Items\AssistedCPR.cs" />
+    <Compile Include="Items\SelfCPR.cs" />
+    <Compile Include="Items\Medikit.cs" />
+    <Compile Include="Items\Bloodbag.cs" />
+    <Compile Include="Items\Defibrillator.cs" />
+    <Compile Include="Items\Morphine.cs" />
+    <Compile Include="Items\Epinephrine.cs" />
+    <Compile Include="Items\Tourniquet.cs" />
     <Compile Include="Items\Bandage.cs" />
     <Compile Include="Items\IItem.cs" />
     <Compile Include="Options.cs" />

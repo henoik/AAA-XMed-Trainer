@@ -2,23 +2,28 @@
  - Take things that you want to work on from the Global list and put it under your name.
 
 ==== Global Action Items =======
-- Research exact phrases and timings for XMedSys (bleed out rates, action times, et cetera) and document them.
-- Add options to Options 
-	(inventory setup, game time acceleration multiplier, hints enabled (check box), starting health options).
-- Add frontend support for Options in OptionsForm.
+!!! Research exact phrases and timings for XMedSys (bleed out rates, action times, et cetera) and document them.
+
+- Add Stat Enums
 - Add 'Report Bug' button to bottom of AboutForm (probably use e-mail for this).
-- Add right-click XMedSys menu (same layout as ingame, but add button for "Request CPR Support")
+- Add right-click XMedSys menu (same layout as ingame, but add button for "Request CPR Help")
 	to MainForm for only when the game is running.
 - Add game interface to MainForm.
 - Add gameloop to GameEngine.
-- Add pause feature to GameEngine (Space Bar to pause?).
+- Add pause feature to GameEngine (Space Bar to pause?  Check what Space Bar does in game first,
+	make sure it doesn't do something with the menu.  If it does, then we need to simulate it.).
 - Add random situations for Easy, Medium, and Hard Random.
 - Add Tutorial.
+- Create schema for game configuration XML files.
+- Add game configuration XML validator that checks against the schema.
 - Add save/load game configurations via XML using the CustomGameSetupForm.
 
 ==== @JDBoronkas' Action Items =======
-- Add inventory data structure.
-- Add all items to item system.  ### Need XMedSys Timings to continue. ###
+- Add options to Options 
+	(inventory setup, game time acceleration multiplier, hints enabled (check box), starting health options).
+- Add frontend support for Options in OptionsForm.
+
+# Add all items to item system.  ### Need XMedSys Timings to continue. ###
 
 ==== Henrik's Action Items =======
 - Add Henrik to About Page in AboutForm.
