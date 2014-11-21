@@ -4,7 +4,6 @@
 ==== Global Action Items =======
 !!! Research exact phrases and timings for XMedSys (bleed out rates, action times, et cetera) and document them.
 
-- Add Stat Enums
 - Add 'Report Bug' button to bottom of AboutForm (probably use e-mail for this).
 - Add right-click XMedSys menu (same layout as ingame, but add button for "Request CPR Help")
 	to MainForm for only when the game is running.
@@ -23,7 +22,8 @@
 	(inventory setup, game time acceleration multiplier, hints enabled (check box), starting health options).
 - Add frontend support for Options in OptionsForm.
 
-# Add all items to item system.  ### Need XMedSys Timings to continue. ###
+# Add all item effects and timeouts and stats.  ### Need XMedSys Research to continue. ###
+# Add Stat Enums ### Need XMedSys Research to continue. ###
 
 ==== Henrik's Action Items =======
 - Add Henrik to About Page in AboutForm.

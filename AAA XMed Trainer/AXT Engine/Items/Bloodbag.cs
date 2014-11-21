@@ -15,7 +15,12 @@ namespace AXT_Engine.Items
 
         public void UseItem(Entities.AEntity target)
         {
-            return;
+            target.BloodLevel += (ushort)(target.STARTING_BLOOD_LEVEL * 0.25);
+
+            if (target.BloodLevel > target.STARTING_BLOOD_LEVEL)
+            {
+                target.BloodLevel = target.STARTING_BLOOD_LEVEL;
+            }
         }
     }
 }
