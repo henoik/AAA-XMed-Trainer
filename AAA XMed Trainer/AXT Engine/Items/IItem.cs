@@ -1,10 +1,4 @@
-﻿using AXT_Engine.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace AXT_Engine.Items
 {
     public interface IItem
@@ -13,11 +7,16 @@ namespace AXT_Engine.Items
         /// Set the external name of this item.
         /// </summary>
         string ItemName { get; }
+
+        /// <summary>
+        /// Set how long this item takes to use, before the effect is applied, in milliseconds.
+        /// </summary>
+        ushort ItemUseTime { get; }
         
         /// <summary>
         /// Uses this item on the given Dummy target.
         /// </summary>
-        /// <param name="target">The dummy target to use this item on.</param>
+        /// <param name="target">The entity target to use this item on.</param>
         void UseItem(Entities.AEntity target);
     }
 }
