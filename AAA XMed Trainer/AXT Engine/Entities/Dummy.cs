@@ -5,9 +5,7 @@ namespace AXT_Engine.Entities
     {
         public Dummy()
         {
-            BloodLevel = 9001;
-            Health = 9001;
-            Dead = false;
+            // Do nothing.
         }
     }
 }

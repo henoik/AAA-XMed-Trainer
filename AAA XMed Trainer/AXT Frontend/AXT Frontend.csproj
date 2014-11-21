@@ -137,6 +137,12 @@
   <ItemGroup>
     <Content Include="TODO.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AXT Engine\AXT Engine.csproj">
+      <Project>{964557be-463c-48a6-a273-24af0d7b55bb}</Project>
+      <Name>AXT Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
